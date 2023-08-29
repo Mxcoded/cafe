@@ -1,0 +1,115 @@
+
+@media print, screen{
+
+#incoice-POS .my-logo{
+    
+    display:block;
+    color: #000;
+}
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 2mm;
+  margin: 0 auto;
+  height: auto !important;
+  width: 80mm;
+  background: #FFF;
+  page-break-after: auto !important;
+  page-break-before: auto !important;
+   
+}
+#invoice-POS ::selection {
+  background: #f31544;
+  color: #FFF;
+}
+#invoice-POS ::moz-selection {
+  background: #f31544;
+  color: #FFF;
+  
+}
+#invoice-POS h1 {
+  font-size: 1.5em;
+  color: #222;
+}
+#invoice-POS h2 {
+  font-size: 0.9em;
+}
+#invoice-POS h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+#invoice-POS p {
+  font-size: 0.7em;
+  color: #000;
+  line-height: 1.2em;
+}
+#invoice-POS #top, #invoice-POS #mid, #invoice-POS #bot {
+  /* Targets all id with 'col-' */
+  border-bottom: 1.5px solid #EEE;
+}
+#invoice-POS #top {
+  min-height: 50px;
+}
+#invoice-POS #mid {
+  min-height: 40px;
+}
+#invoice-POS #bot {
+  min-height: 25px;
+}
+#invoice-POS #top .rlogo {
+  height: 30px;
+  width: 60px;
+  background: url('/uploads/bricks.png') no-repeat;
+  background-size: 60px 60px;
+
+}
+#invoice-POS .clientlogo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+  background-size: 60px 60px;
+  border-radius: 50px;
+}
+#invoice-POS .info {
+  display: block;
+  margin-left: 0;
+}
+#invoice-POS .title {
+  float: right;
+}
+#invoice-POS .title p {
+  text-align: right;
+}
+#invoice-POS table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#invoice-POS .tabletitle {
+  font-size: 0.9em;
+  background: #EEE;
+
+}
+#invoice-POS .service {
+  border-bottom: 1px solid #c1bfbf;
+}
+#invoice-POS .item {
+  width: 24mm;
+}
+#invoice-POS .itemtext {
+  font-size: 0.7em;
+}
+#invoice-POS #legalcopy {
+  margin-top: 5mm;
+}
+#demotext {
+font-family: playball;
+font-size:2em;
+color: #444444;
+background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+color: #444444;
+background: #FFFFFF;
+}
+    
+}
